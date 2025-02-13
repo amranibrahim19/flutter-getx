@@ -1,8 +1,5 @@
 import 'package:get/get.dart';
 
 class ApiServices extends GetxService {
-  Future<String> fetchData() async {
-    await Future.delayed(const Duration(seconds: 2));
-    return 'Data Fetched';
-  }
+  static const String url = 'http://192.168.0.13:8001/api';
 }

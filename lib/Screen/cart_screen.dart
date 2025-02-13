@@ -38,6 +38,8 @@ class CartScreen extends StatelessWidget {
                             textCancel: 'No',
                             onConfirm: () {
                               cartController.removeFromCart(item);
+                              // Get.back();
+                              Navigator.of(context).pop();
                               Get.back();
                             },
                             onCancel: () {},
@@ -56,7 +58,8 @@ class CartScreen extends StatelessWidget {
                 children: [
                   Padding(
                     padding: EdgeInsets.all(16.0),
-                    child: Text('Total Amount: ${cartController.totalAmountValue}'),
+                    child: Text(
+                        'Total Amount: ${cartController.totalAmountValue}'),
                   ),
                   ElevatedButton(
                     onPressed: () {

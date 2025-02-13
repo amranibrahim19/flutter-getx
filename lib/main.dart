@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ShadApp.material(
+      debugShowCheckedModeBanner: false,
       home: GetMaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Flutter Todo',

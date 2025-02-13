@@ -1,0 +1,2 @@
+C:/Users/Febryan/Documents/Code/git-project/flutter-getx/android/app/.cxx/Debug/201y51c6/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/Febryan/Documents/Code/git-project/flutter-getx/android/app/.cxx/Debug/201y51c6/armeabi-v7a/CMakeFiles/rebuild_cache.dir
